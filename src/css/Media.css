@@ -1,0 +1,103 @@
+@media (max-width: 767px){
+    .Nav{
+        height: 50px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
+
+@media (max-width: 575px){
+    .Weather-icon img{
+        width: 180px;
+    }
+    .degrees{
+        font-size: 48px;
+    }
+    .degrees-info p{
+        font-size: 30px;
+    }
+    .degrees-info div span{
+        font-size: 20px;
+    }
+    .degrees-info div{
+        width: 220px;
+    }
+    .logo{
+        font-size: 18px;
+    }
+    .country, .history{
+        width: 100px;
+    }
+    .country p{
+        font-size: 14px;
+    }
+    .country img, .HistoryIcon{
+        width: 20px;
+        height: 20px;
+    }
+    .VectorDown{
+        width: 15px !important;
+    }
+}
+
+@media (max-width: 410px){
+    .country p{
+        display: none;
+    }
+    .country, .history{
+        width: 40px;
+    }
+}
+
+@media (max-width: 410px){
+    .HistoryMenu, .CountryMenu{
+        width: 100vw;
+        border-radius: none;
+        border: none;
+    }
+}
+
+@media (max-width: 300px){
+    .Weather-icon img{
+        width: 120px;
+    }
+    .degrees{
+        font-size: 30px;
+    }
+    .degrees-info p{
+        font-size: 22px;
+    }
+    .degrees-info div{
+        max-width: 160px;
+    }
+    .degrees-info div span{
+        font-size: 15px;
+    } 
+}
+
+@media (max-width: 180px){
+    .logo span{
+        font-size: 14px;
+    }
+    .Nav{
+        height: 30px;
+    }
+    .country, .history{
+        width: 20px;
+    }
+    .Weather-icon img{
+        width: 50px;
+    }
+    .degrees{
+        font-size: 24px;
+    }
+    .degrees-info p{
+        font-size: 15px;
+    }
+    .degrees-info div{
+        max-width: 130px;
+    }
+    .degrees-info div span{
+        font-size: 12px;
+    } 
+}
